@@ -93,7 +93,7 @@ const favoritesSectionData = {
         image: import('@/assets/favorites/media/joshua.jpg'),
         title: 'Joshua Fluke',
         type: 'YouTube channel',
-        url: 'https://www.youtube.com/@joshuaf',
+        url: 'https://www.youtube.com/@JoshuaFluke1',
       },
       {
         image: import('@/assets/favorites/media/theo.jpg'),
