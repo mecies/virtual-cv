@@ -11,9 +11,10 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+    title: 'Maciej Hnat - Senior Frontend Developer',
+    description: `
+      Senior Frontend Developer with 4 years of experience building engaging web applications using React and Vue. I specialize in creating user-friendly interfaces, optimizing website performance, and implementing responsive designs. My dedication to continuous learning and improvement ensures high-quality results that exceed client expectations. With leadership experience in managing and mentoring small frontend teams, I am committed to achieving project goals on time and on budget.
+    `,
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {

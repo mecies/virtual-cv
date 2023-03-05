@@ -12,88 +12,58 @@ const favoritesSectionData = {
     title: 'Books I read',
     data: [
       {
-        image: import('@/assets/favorites/books/book-1.jpeg'),
-        title: 'The Pragmatic Programmer: From Journeyman to Master',
-        author: 'Andy Hunt, Dave Thomas',
-        url: 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer',
-      },
-      {
-        image: import('@/assets/favorites/books/book-2.jpg'),
-        title: 'Domain-Driven Design: Tackling Complexity in the Heart of Software',
-        author: 'Eric Evans',
-        url: 'https://www.goodreads.com/book/show/179133.Domain_Driven_Design',
-      },
-      {
-        image: import('@/assets/favorites/books/book-3.jpeg'),
-        title: 'Clean Code: A Handbook of Agile Software Craftsmanship',
+        image: import('@/assets/favorites/books/clean-code.jpeg'),
+        title: 'Clean Code',
         author: 'Robert C. Martin',
         url: 'https://www.goodreads.com/book/show/3735293-clean-code',
       },
       {
-        image: import('@/assets/favorites/books/book-4.jpeg'),
-        title: 'The Clean Coder: A Code of Conduct for Professional Programmers',
-        author: 'Robert C. Martin',
-        url: 'https://www.goodreads.com/book/show/10284614-the-clean-coder',
+        image: import('@/assets/favorites/books/algorithms.jpg'),
+        title: 'Grokking Algorithms',
+        author: 'Aditya Bhargava',
+        url: 'https://www.goodreads.com/book/show/22847284-grokking-algorithms',
+      },
+      {
+        image: import('@/assets/favorites/books/fundamentals-of-sh.jpeg'),
+        title: 'Fundamentals of Software Architecture',
+        author: 'Mark Richards and Neal Ford',
+        url: 'https://www.goodreads.com/en/book/show/44144493',
+      },
+      {
+        image: import('@/assets/favorites/books/staff-engineers-path.jpeg'),
+        title: 'The Staff Engineer’s Path',
+        author: 'Tanya Reilly',
+        url: 'https://www.goodreads.com/en/book/show/61058107',
+      },
+      {
+        image: import('@/assets/favorites/books/building-micro-frontends.jpeg'),
+        title: 'Building Micro-Frontends',
+        author: 'Luca Mezzalira',
+        url: 'https://www.goodreads.com/book/show/59656687-building-micro-frontends',
+      },
+      {
+        image: import('@/assets/favorites/books/ddd.jpeg'),
+        title: 'Learning Domain-Driven Design',
+        author: 'Vlad Khononov',
+        url: 'https://www.goodreads.com/en/book/show/57573212',
+      },
+      {
+        image: import('@/assets/favorites/books/fullstack-testing.jpeg'),
+        title: 'Fullstack Testing',
+        author: 'Gayathri Mohan',
+        url: 'https://www.goodreads.com/book/show/59891129-full-stack-testing',
+      },
+      {
+        image: import('@/assets/favorites/books/frontend-architecture-design-systems.jpeg'),
+        title: 'Frontend Architecture For Design Systems',
+        author: 'Micah Godbolt',
+        url: 'https://www.goodreads.com/en/book/show/25977680',
       },
     ],
   },
-  people: {
-    title: 'People I learn from',
-    data: [
-      {
-        image: import('@/assets/favorites/people/person-1.jpg'),
-        name: 'Kent C. Dodds',
-        url: 'https://kentcdodds.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-2.jpeg'),
-        name: 'Kent Beck',
-        url: 'https://www.kentbeck.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-3.jpeg'),
-        name: 'Eric Evans',
-        url: 'https://www.domainlanguage.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-4.jpeg'),
-        name: 'Martin Fowler',
-        url: 'https://martinfowler.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-5.jpg'),
-        name: 'Robert C. Martin',
-        url: 'http://cleancoder.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-6.jpeg'),
-        name: 'Adam Dymitruk',
-        url: 'https://eventmodeling.org/',
-      },
-    ],
-  },
-  videos: {
-    title: 'Videos I watched',
-    data: [
-      {
-        image: import('@/assets/favorites/videos/video-1.jpeg'),
-        title: 'Building Resilient Frontend Architecture • Monica Lent • GOTO 2019',
-        url: 'https://youtu.be/TqfbAXCCVwE',
-      },
-      {
-        image: import('@/assets/favorites/videos/video-2.jpeg'),
-        title: 'Scaling Yourself • Scott Hanselman • GOTO 2012',
-        url: 'https://youtu.be/FS1mnISoG7U',
-      },
-      {
-        image: import('@/assets/favorites/videos/video-3.jpeg'),
-        title: "Why Isn't Functional Programming the Norm? - Richard Feldman",
-        url: 'https://youtu.be/QyJZzq0v7Z4',
-      },
-    ],
-  },
+
   medias: {
-    title: 'Media I follow',
+    title: 'Media I follow and People I learn from',
     data: [
       {
         image: import('@/assets/favorites/media/media-1.jpeg'),
@@ -108,28 +78,64 @@ const favoritesSectionData = {
         url: 'https://www.youtube.com/channel/UCfe_znKY1ukrqlGActlFmaQ',
       },
       {
-        image: import('@/assets/favorites/media/media-3.png'),
-        title: 'Bytes',
+        image: import('@/assets/favorites/media/ben-awad.jpg'),
+        title: 'Ben Awad',
+        type: 'YouTube channel',
+        url: 'https://www.youtube.com/channel/UC-8QAzbLcRglXeN_MY9blyw',
+      },
+      {
+        image: import('@/assets/favorites/media/clement.jpg'),
+        title: 'Clement Mihailescu',
+        type: 'YouTube channel',
+        url: 'https://www.youtube.com/@clem',
+      },
+      {
+        image: import('@/assets/favorites/media/joshua.jpg'),
+        title: 'Joshua Fluke',
+        type: 'YouTube channel',
+        url: 'https://www.youtube.com/@joshuaf',
+      },
+      {
+        image: import('@/assets/favorites/media/theo.jpg'),
+        title: 'Theo - t3.gg',
+        type: 'YouTube channel',
+        url: 'https://www.youtube.com/@t3dotgg',
+      },
+      {
+        image: import('@/assets/favorites/media/wds.jpg'),
+        title: 'Web Dev Simplified',
+        type: 'YouTube channel',
+        url: 'https://www.youtube.com/@WebDevSimplified',
+      },
+      {
+        image: import('@/assets/favorites/media/google-chrome-devs.jpg'),
+        title: 'Google Chrome Developers',
+        type: 'YouTube channel',
+        url: 'https://www.youtube.com/@GoogleChromeDevelopers',
+      },
+      {
+        image: import('@/assets/favorites/media/continuous-delivery.jpg'),
+        title: 'Continuous Delivery',
+        type: 'YouTube channel',
+        url: 'https://www.youtube.com/@ContinuousDelivery',
+      },
+      {
+        image: import('@/assets/favorites/media/react-status.png'),
+        title: 'React Status',
         type: 'Newsletter',
-        url: 'https://bytes.dev/',
+        url: 'https://react.statuscode.com/',
+      },
+      {
+        image: import('@/assets/favorites/media/javascript.png'),
+        title: 'JavaScript Weekly',
+        type: 'Newsletter',
+        url: 'https://javascriptweekly.com/',
       },
       {
         image: import('@/assets/favorites/media/media-4.png'),
         title: 'TypeScript Weekly',
         type: 'Newsletter',
         url: 'https://typescript-weekly.com/',
-      },
-      {
-        image: import('@/assets/favorites/media/media-5.jpeg'),
-        title: 'Front End Happy Hour',
-        type: 'Podcast',
-        url: 'https://www.frontendhappyhour.com/',
-      },
-      {
-        image: import('@/assets/favorites/media/media-6.webp'),
-        title: '.cult by Honeypot',
-        type: 'Blog',
-        url: 'https://cult.honeypot.io/',
       },
     ],
   },

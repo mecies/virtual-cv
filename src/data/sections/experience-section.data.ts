@@ -1,18 +1,38 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
+import { github, linkedin, website } from '../helpers/links';
 import {
-  chakraUi,
+  angularJs,
+  apolloGraphql,
+  cypress,
+  django,
   eslint,
   firebase,
+  graphql,
+  javascript,
+  jest,
+  lerna,
+  materialUi,
   nextJs,
-  nx,
-  pnpm,
+  nodeJs,
+  npm,
+  nuxtJs,
+  playwright,
+  prettier,
   react,
   reactQuery,
+  redux,
+  sass,
+  storyblok,
+  storybook,
+  styledComponents,
+  svelte,
   tailwindCss,
   typescript,
   vue,
+  webRtc,
+  webSockets,
+  yarn,
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -24,59 +44,199 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Senior Frontend Developer & Tech Lead',
+      company: 'Swapcard',
+      image: import('@/assets/logos/swapcard.jpg'),
+      dates: [new Date('2021-07'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - Developing and maintaining an all-in-one platform for creating virtual events in a team of 15 frontend developers.
+        - Developing and maintaining a design system for the company.
+        - Developing a professional live streaming studio application from scratch as a single frontend developer.
+        - Working closely with the product and design teams to deliver the best user experience.
+        - Introducing new technologies, design patterns, and best practices to the team.
+        - Introducing frontend-centric e2e tests to the team preventing regression in SEO, a11y, and SSR.
+        - Leading a team of 4 developers.
+        - Mentoring and coaching junior developers.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [
+          react(),
+          nextJs(),
+          typescript(),
+          styledComponents(),
+          storybook(),
+          apolloGraphql(),
+          graphql(),
+          webSockets(),
+          webRtc(),
+          jest(),
+          cypress(),
+          playwright(),
+          eslint(),
+          prettier(),
+          nodeJs(),
+          yarn(),
+          lerna(),
+        ],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [
+        linkedin({ url: 'https://www.linkedin.com/company/swapcard/' }),
+        website({
+          url: 'https://www.swapcard.com/',
+        }),
+      ],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      role: 'Senior Frontend Developer',
+      company: 'Xfive · Part-time',
+      image: import('@/assets/logos/xfive.png'),
+      dates: [new Date('2022-05'), null],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        - Developing a platform that eases the process of translating ancient buddhist text for the Laiden University.
+        - Maintaining a couple of small projects with on-demand work.
+        - Working closely with the client to deliver a tailor-made solution to their domain needs.
+        - Introducing new technologies and tools to the company.
+        - Leading a team of 2 frontend developers.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [
+          react(),
+          nextJs(),
+          reactQuery(),
+          typescript(),
+          styledComponents(),
+          sass(),
+          jest(),
+          eslint(),
+          prettier(),
+          nodeJs(),
+          yarn(),
+        ],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [
+        linkedin({ url: 'https://www.linkedin.com/company/xfiveco/' }),
+        website({
+          url: 'https://www.xfive.co/',
+        }),
+      ],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      role: 'Frontend Developer',
+      company: 'Infermedica',
+      image: import('@/assets/logos/infermedica.jpeg'),
+      dates: [new Date('2020-10'), new Date('2021-07')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+        - Developing an AI-powered medical diagnosis platform for doctors and patients.
+        - Developing and maintaining a design system for the company.
+        - Maintaining a legacy medical application and delivering it to the clients.
+        - Maintaining an existing marketing website and developing a new one with CMS from scratch.
+        - Working in a team of 10 frontend developers.
+        - Mentoring and supporting junior developers and newcomers.
+        - Customizing and integrating the platform for the needs of the client.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [
+          vue(),
+          nuxtJs(),
+          svelte(),
+          angularJs(),
+          django(),
+          typescript(),
+          javascript(),
+          sass(),
+          storybook(),
+          storyblok(),
+          jest(),
+          eslint(),
+          prettier(),
+          npm(),
+        ],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [
+        linkedin({ url: 'https://www.linkedin.com/company/infermedica/' }),
+        website({
+          url: 'https://infermedica.com/',
+        }),
+        github({
+          url: 'https://github.com/infermedica',
+        }),
+      ],
+    },
+    {
+      role: 'Junior Frontend Developer',
+      company: 'Monterail',
+      image: import('@/assets/logos/monterail.jpg'),
+      dates: [new Date('2020-02'), new Date('2020-10')],
+      description: `
+        - Developing a journey planner and online booking platform for European travel.
+        - Developing an online pharmacy platform for the US market.
+        - Developing an internal e-learning platform for the company.
+        - Developing an internal employee growth framework platform for the company.
+        - Working in multiple teams of 1-5 frontend developers on multiple projects.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [
+          vue(),
+          react(),
+          nextJs(),
+          nuxtJs(),
+          redux(),
+          typescript(),
+          sass(),
+          styledComponents(),
+          tailwindCss(),
+          materialUi(),
+          jest(),
+          eslint(),
+          prettier(),
+          nodeJs(),
+          npm(),
+          yarn(),
+        ],
+      },
+      links: [
+        linkedin({ url: 'https://www.linkedin.com/company/monterail/' }),
+        website({
+          url: 'https://monterail.com/',
+        }),
+      ],
+    },
+    {
+      role: 'Frontend Developer Intern',
+      company: 'flashPub',
+      image: import('@/assets/logos/flashpub.png'),
+      dates: [new Date('2019-11'), new Date('2020-02')],
+      description: `
+        - Developing a platform for creating and managing scientific micro publications.
+        - Working closely with the CEO and CTO of a startup.
+        - Working in a team of 2 frontend developers.
+        - Learning the basics of frontend development.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [
+          react(),
+          typescript(),
+          redux(),
+          materialUi(),
+          styledComponents(),
+          eslint(),
+          prettier(),
+          nodeJs(),
+          firebase(),
+          npm(),
+        ],
+      },
+      links: [
+        linkedin({ url: 'https://www.linkedin.com/company/flashpub-io/' }),
+        website({
+          url: 'https://flashpub.io/',
+        }),
+      ],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;
