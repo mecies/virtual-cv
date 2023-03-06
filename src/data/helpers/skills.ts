@@ -111,7 +111,7 @@ export const postgreSql = createSkillFactory({
 export const html = createSkillFactory({
   icon: 'logos:html-5',
   name: 'HTML5',
-  url: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
+  url: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5',
 });
 
 export const ruby = createSkillFactory({
@@ -129,7 +129,7 @@ export const rails = createSkillFactory({
 export const css = createSkillFactory({
   icon: 'logos:css-3',
   name: 'CSS3',
-  url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
 });
 
 export const nx = createSkillFactory({
