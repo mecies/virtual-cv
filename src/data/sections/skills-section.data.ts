@@ -133,7 +133,7 @@ const skillsSectionData = {
         },
         {
           icon: 'circle-flags:us',
-          name: 'English - full professional proficiency',
+          name: 'English - fluent',
         },
       ],
     },
