@@ -111,7 +111,7 @@ const favoritesSectionData = {
         image: import('@/assets/favorites/media/google-chrome-devs.jpg'),
         title: 'Google Chrome Developers',
         type: 'YouTube channel',
-        url: 'https://www.youtube.com/@GoogleChromeDevelopers',
+        url: 'https://www.youtube.com/@ChromeDevs',
       },
       {
         image: import('@/assets/favorites/media/continuous-delivery.jpg'),
