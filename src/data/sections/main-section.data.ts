@@ -16,6 +16,7 @@ const mainSectionData = {
     { label: 'Phone', value: '+48 500 767 393' },
     { label: 'Email', value: 'maciekhnat@gmail.com' },
     { label: 'From', value: 'Wroclaw, Poland' },
+    { label: 'Contract type', value: 'B2B' },
   ],
   pdfDetails: [
     { label: 'Phone', value: '+48 500 767 393' },

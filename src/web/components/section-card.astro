@@ -28,8 +28,9 @@ const { title, slug, hideTitle, className, visible } = Astro.props;
   import throttle from '@/web/utils/throttle';
 
   const sections = [...document.querySelectorAll('[data-type="section"]')];
+  const magicNumber = window.innerHeight / 3 - 100;
 
-  const isInUpperView = (section: Element) => section.getBoundingClientRect().bottom >= window.innerHeight / 3;
+  const isInUpperView = (section: Element) => section.getBoundingClientRect().bottom >= magicNumber;
 
   const updateHash = () => {
     const currentSection = sections.find(isInUpperView);
