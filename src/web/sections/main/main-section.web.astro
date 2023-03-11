@@ -48,7 +48,20 @@ const { action, config, description, details, fullName, image, links, role, tags
         </div>
         <div class="flex flex-col gap-4">
           <Description content={description} />
-          <TagsList tags={tags} />
+          <TagsList tags={tags}>
+            <a
+              href="https://wakatime.com/@54facb64-518c-4f5a-8024-cfe17f7393bd"
+              target="_blank"
+              data-tooltip="Total coding activity since Nov 2018"
+              data-tooltip-placement="top"
+            >
+              <img
+                src="https://wakatime.com/badge/user/54facb64-518c-4f5a-8024-cfe17f7393bd.svg"
+                alt="Total time coded since Nov 6 2018"
+                class="h-6"
+              />
+            </a>
+          </TagsList>
         </div>
       </div>
     </div>
