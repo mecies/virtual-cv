@@ -9,7 +9,7 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.jpeg'),
+  image: import('@/assets/og-image.jpeg'),
   fullName: 'Maciej Hnat',
   role: 'Senior Frontend Developer',
   details: [
