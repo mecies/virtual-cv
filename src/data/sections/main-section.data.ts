@@ -13,8 +13,8 @@ const mainSectionData = {
   fullName: 'Maciej Hnat',
   role: 'Senior Frontend Developer',
   details: [
-    { label: 'Phone', value: '+48 500 767 393' },
-    { label: 'Email', value: 'maciekhnat@gmail.com' },
+    { label: 'Phone', value: '+48 500 767 393', url: 'tel:+48 500 767 393' },
+    { label: 'Email', value: 'maciekhnat@gmail.com', url: 'mailto:maciekhnat@gmail.com' },
     { label: 'From', value: 'Wroclaw, Poland' },
     { label: 'Contract type', value: 'B2B' },
   ],
