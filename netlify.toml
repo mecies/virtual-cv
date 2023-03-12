@@ -3,3 +3,9 @@
   to = "https://maciejhnat.dev"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://maciejhnat.netlify.app/*"
+  to = "https://maciejhnat.dev"
+  status = 301
+  force = true
