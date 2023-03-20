@@ -21,9 +21,9 @@ const mainSectionData = {
   pdfDetails: [
     { label: 'Phone', value: '+48 500 767 393' },
     { label: 'Email', value: 'maciekhnat@gmail.com' },
-    { label: 'LinkedIn', value: '/in/maciej-hnat/', url: 'https://linkedin.com' },
-    { label: 'GitHub', value: '/mecies', url: 'https://github.com' },
-    { label: 'Website', value: 'https://maciejhnat.dev/', url: '/', fullRow: true },
+    { label: 'LinkedIn', value: '/in/maciej-hnat/', url: 'https://www.linkedin.com/in/maciej-hnat/' },
+    { label: 'GitHub', value: '/mecies', url: 'https://github.com/mecies' },
+    { label: 'Website', value: 'https://maciejhnat.dev/', url: 'https://maciejhnat.dev/', fullRow: true },
   ],
   description: `
     Senior Frontend Developer with 4 years of experience building engaging web applications using React and Vue. I specialize in creating user-friendly interfaces, optimizing website performance, and implementing responsive designs. My dedication to continuous learning and improvement ensures high-quality results that exceed client expectations. With leadership experience in managing and mentoring small frontend teams, I am committed to achieving project goals on time and on budget.
