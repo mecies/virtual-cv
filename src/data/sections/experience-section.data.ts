@@ -49,12 +49,10 @@ const experienceSectionData = {
       image: import('@/assets/logos/swapcard.jpg'),
       dates: [new Date('2021-07'), null],
       description: `
-        - Developing and maintaining an all-in-one platform for creating virtual events in a team of 15 frontend developers.
+        - Developing and maintaining an all-in-one platform for creating virtual events.
         - Developing and maintaining a design system for the company.
-        - Developing a professional live streaming studio application from scratch as a single frontend developer.
-        - Working closely with the product and design teams to deliver the best user experience.
-        - Introducing new technologies, design patterns, and best practices to the team.
-        - Introducing frontend-centric e2e tests to the team preventing regression in SEO, a11y, and SSR.
+        - Developing a professional live streaming studio application from scratch.
+        - Introducing frontend-centric e2e tests, preventing regression in SEO, a11y, and SSR.
         - Leading a team of 4 developers.
         - Mentoring and coaching junior developers.
       `,
@@ -93,10 +91,8 @@ const experienceSectionData = {
       image: import('@/assets/logos/xfive.png'),
       dates: [new Date('2022-05'), null],
       description: `
-        - Developing a platform that eases the process of translating ancient buddhist text for the Laiden University.
-        - Maintaining a couple of small projects with on-demand work.
+        - Developing a platform that eases the process of translating ancient buddhist texts.
         - Working closely with the client to deliver a tailor-made solution to their domain needs.
-        - Introducing new technologies and tools to the company.
         - Leading a team of 2 frontend developers.
       `,
       tagsList: {
@@ -131,10 +127,7 @@ const experienceSectionData = {
         - Developing an AI-powered medical diagnosis platform for doctors and patients.
         - Developing and maintaining a design system for the company.
         - Maintaining a legacy medical application and delivering it to the clients.
-        - Maintaining an existing marketing website and developing a new one with CMS from scratch.
-        - Working in a team of 10 frontend developers.
-        - Mentoring and supporting junior developers and newcomers.
-        - Customizing and integrating the platform for the needs of the client.
+        - Maintaining an existing static marketing website and creating a new one with CMS.
       `,
       tagsList: {
         title: 'Technologies',
