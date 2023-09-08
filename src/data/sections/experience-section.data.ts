@@ -89,7 +89,7 @@ const experienceSectionData = {
       role: 'Senior Frontend Developer',
       company: 'Xfive · Part-time',
       image: import('@/assets/logos/xfive.png'),
-      dates: [new Date('2022-05'), null],
+      dates: [new Date('2022-05'), new Date('2023-03')],
       description: `
         - Developing a platform that eases the process of translating ancient buddhist texts.
         - Working closely with the client to deliver a tailor-made solution to their domain needs.
