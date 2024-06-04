@@ -91,6 +91,7 @@ const skillsSectionData = {
         npm({ level: 4 }),
         yarn({ level: 4 }),
         lerna({ level: 4 }),
+        docker({ level: 3 }),
         graphql({ level: 4 }),
         webSockets({ level: 3 }),
         webRtc({ level: 3 }),
@@ -103,7 +104,6 @@ const skillsSectionData = {
     {
       title: 'I want to learn',
       skills: [
-        docker(),
         {
           icon: 'logos:trpc',
           name: 'Trpc',
