@@ -44,7 +44,7 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Frontend Engineering Manager',
+      role: 'Senior FE Engineer & FE Engineering Manager',
       company: 'Swapcard',
       image: import('@/assets/logos/swapcard.jpg'),
       dates: [new Date('2021-07'), null],
@@ -52,7 +52,6 @@ const experienceSectionData = {
         - Developing and maintaining an all-in-one platform for creating virtual events.
         - Developing and maintaining a design system for the company.
         - Developing a professional live streaming studio application from scratch.
-        - Introducing frontend-centric e2e tests, preventing regression in SEO, a11y, and SSR.
         - Leading a team of 4 developers.
         - Mentoring and coaching junior developers.
         - Managing a team, career development, performance reviews

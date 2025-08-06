@@ -5,10 +5,11 @@ import type { DataTransformer } from './transformers';
 
 const transformData =
   (data: PreciseData) =>
-  (...callbacks: DataTransformer[]): Data =>
+  (...callbacks: DataTransformer[]): Data => {
     // @ts-ignore -- waiting for https://github.com/sindresorhus/type-fest/pull/540 to be merged
-    produce(data, (draft) => {
+    return produce(data, (draft) => {
       callbacks.forEach((callback) => callback(draft));
     });
+  };
 
 export default transformData;

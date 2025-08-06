@@ -98,13 +98,9 @@ export const hideAllSkillLevels =
       ...skillSet,
       skills: skillSet.skills.map((skill) => {
         if ('level' in skill) {
-          const clonedSkill = structuredClone(skill);
-          // @ts-ignore
-          delete clonedSkill.level;
-
-          return clonedSkill;
+          // @ts-ignore nara
+          delete skill.level;
         }
-
         return skill;
       }),
     }));
