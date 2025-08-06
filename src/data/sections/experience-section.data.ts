@@ -44,7 +44,7 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior Frontend Developer & Tech Lead',
+      role: 'Frontend Engineering Manager',
       company: 'Swapcard',
       image: import('@/assets/logos/swapcard.jpg'),
       dates: [new Date('2021-07'), null],
@@ -55,6 +55,7 @@ const experienceSectionData = {
         - Introducing frontend-centric e2e tests, preventing regression in SEO, a11y, and SSR.
         - Leading a team of 4 developers.
         - Mentoring and coaching junior developers.
+        - Managing a team, career development, performance reviews
       `,
       tagsList: {
         title: 'Technologies',
